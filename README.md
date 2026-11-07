@@ -133,7 +133,7 @@ GenAI-Content-Agent/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/2200032795/self-evaluating-genai-content-agent
 cd GenAI-Content-Agent
 ```
 
