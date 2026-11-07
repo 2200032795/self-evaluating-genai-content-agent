@@ -1,0 +1,39 @@
+[
+    {
+        "attempt": 1,
+        "status": "FAIL",
+        "failure_reasons": [
+            "Accuracy failure: deliberately incorrect RAG claim detected."
+        ],
+        "checks": {
+            "accuracy": {
+                "status": "FAIL",
+                "reason": "The lesson contains a false claim: RAG guarantees that an AI will always provide 100% accurate answers."
+            },
+            "beginner_friendliness": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            },
+            "examples": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            },
+            "jargon": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            },
+            "topic_coverage": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            },
+            "teaching_flow": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            },
+            "completeness": {
+                "status": "PASS",
+                "reason": "Not evaluated by the local error check."
+            }
+        }
+    }
+]
